@@ -1,6 +1,6 @@
 # Project Name
 
-    Project brief description
+    The HTML & CSS Capstone Project is based on an online website for a conference.
 
 ![screenshot](./screenshot.png)
 
@@ -8,31 +8,22 @@
 
     - Plain HTML5
     - Pure CSS3
+    - Font Awesome
 
 ## :mag: Live Demo
 
-[Live Demo Link](https://mcervantes71.github.io//index.html)
-
-## :computer: Getting Started
-
-    To get a local copy up and running follow these simple steps.
-
-### Install
-
-    Download the repository.
-
-### Usage
-
-    In any browser, open the index.html file.
+[Live Demo Link](https://mcervantes71.github.io/HTML_CSS_Capstone_Project/index.html)
 
 ## :busts_in_silhouette: Authors
 
-👤 **Author1**
+👤 **Martin Cervantes**
 
-- Gmail: [Martin Cervantes](mailto:cervantes.martine@gmail.com)
-- Github: [@mcervantes71](https://github.com/mcervantes71)
-- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
 - Linkedin: [Martin Cervantes](https://www.linkedin.com/in/cervantesmartin/)
+- Twitter: [@M4rt1nC3rv4nt3s](https://twitter.com/M4rt1nC3rv4nt3s)
+- Github: [@mcervantes71](https://github.com/mcervantes71)
+- Gmail: [cervantes.martine](mailto:cervantes.martine@gmail.com)
+
+Design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 
 ## 🤝 Contributing
 

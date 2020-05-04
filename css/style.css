@@ -108,6 +108,7 @@ section {
 }
 
 body {
+  font-size: 16px;
   line-height: 1;
 }
 
@@ -121,10 +122,10 @@ q {
   quotes: none;
 }
 
-blockquote::before,
 blockquote::after,
-q::before,
-q::after {
+blockquote::before,
+q::after,
+q::before {
   content: '';
   content: none;
 }
@@ -134,9 +135,130 @@ table {
   border-spacing: 0;
 }
 
-/* YOUR CODE HERE */
+/* fonts */
 
-.fa-copyright {
+@font-face {
+  font-family: 'Cocogoose';
+  src: url(../font/Cocogoose.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(../font/Lato.ttf) format('truetype');
+}
+
+/* colors */
+
+:root {
+  --black1: #272a31;
+  --red1: #ec5242;
+  --gray1: #d3d3d3;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1310px;
+}
+
+/* header */
+
+header {
+  background-color: var(--black1);
+}
+
+.header_links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+.header_link {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.header_link:hover {
+  color: var(--red1);
+}
+
+/* header */
+
+nav {
+  background-color: #fff;
+}
+
+.nav_bar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+}
+
+.full_logo {
+  height: 4rem;
+}
+
+.nav_links {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  max-width: 26.25rem;
+  padding: 1.3rem 0;
+  width: 32vw;
+}
+
+.nav_link {
+  color: var(--black1);
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.menu {
+  display: none;
+  font-size: 1.4rem;
+}
+
+.nav_link:hover {
+  color: var(--red1);
+  text-decoration: underline #000;
+}
+
+.active {
+  color: var(--red1);
+}
+
+/* .fa-copyright {
   background-color: red;
   font-size: 15em;
+} */
+
+@media (max-width: 768px) {
+  /* header */
+
+  .header_links {
+    width: 13rem;
+  }
+
+  /* navbar */
+
+  .nav_bar {
+    padding: 0.5rem 1rem;
+  }
+
+  .full_logo {
+    height: 3rem;
+  }
+
+  .nav_links {
+    display: none;
+  }
+
+  .menu {
+    display: inline;
+  }
 }
