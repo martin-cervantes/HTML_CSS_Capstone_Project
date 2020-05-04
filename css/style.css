@@ -232,16 +232,30 @@ nav {
   color: var(--red1);
 }
 
-/* .fa-copyright {
-  background-color: red;
-  font-size: 15em;
-} */
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 60%;
+}
+
+@media (max-width: 480px) {
+  footer {
+    flex-direction: column;
+  }
+
+  .copyright {
+    padding-top: 1rem;
+  }
+}
 
 @media (max-width: 768px) {
-  /* header */
+  /* footer */
 
-  .header_links {
-    width: 13rem;
+  footer {
+    width: 80%;
   }
 
   /* navbar */
