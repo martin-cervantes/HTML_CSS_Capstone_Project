@@ -344,6 +344,53 @@ nav {
   text-decoration: none;
 }
 
+/* about */
+
+.section1 {
+  background-image: url('../img/bg_odin1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vw;
+  max-height: 790px;
+  min-height: 480px;
+}
+
+.section2 {
+  background-image: url('../img/bg_odin2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vw;
+  max-height: 790px;
+  min-height: 480px;
+}
+
+.section3 {
+  background-image: url('../img/bg_odin3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vw;
+  max-height: 790px;
+  min-height: 480px;
+}
+
+.about_text {
+  background: rgb(214, 213, 213);
+  background: radial-gradient(circle, rgba(214, 213, 213, 0.7) 0%, rgba(156, 154, 154, 0.9) 100%);
+  border-radius: 0.5rem;
+  color: #fff;
+  padding: 1rem;
+  width: 12rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.relative {
+  position: relative;
+}
+
 /* tickets */
 
 .bg_tickets {
@@ -413,7 +460,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 0;
   width: 60%;
 }
 
@@ -489,6 +536,23 @@ footer {
     align-items: center;
   }
 
+  /* about */
+
+  .section1 {
+    height: 90vw;
+  }
+
+  .section2 {
+    height: 90vw;
+  }
+
+  .section3 {
+    height: 120vw;
+    background-position: center;
+  }
+
+  /* tickets */
+
   th {
     padding: 3vw;
   }
@@ -535,6 +599,21 @@ footer {
     order: 1;
     height: 80vw;
     width: 100%;
+  }
+
+  /* about */
+
+  .section1 {
+    background-position: center;
+  }
+
+  .section2 {
+    background-position: center;
+  }
+
+  .section3 {
+    height: 160vw;
+    background-position: center;
   }
 
   /* tickets */
