@@ -108,7 +108,7 @@ section {
 }
 
 body {
-  color: var(--black1);
+  color: #272a31;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1;
@@ -149,15 +149,6 @@ table {
   src: url(../font/Lato.ttf) format('truetype');
 }
 
-/* colors */
-
-:root {
-  --black1: #272a31;
-  --gray1: #d3d3d3;
-  --gray2: #545454;
-  --red1: #ec5242;
-}
-
 .container {
   margin: 0 auto;
   max-width: 1310px;
@@ -166,7 +157,7 @@ table {
 /* header */
 
 header {
-  background-color: var(--black1);
+  background-color: #272a31;
 }
 
 .header_links {
@@ -185,7 +176,7 @@ header {
 }
 
 .header_link:hover {
-  color: var(--red1);
+  color: #ec5242;
 }
 
 /* header */
@@ -215,7 +206,7 @@ nav {
 }
 
 .nav_link {
-  color: var(--black1);
+  color: #272a31;
   font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
   text-decoration: none;
@@ -227,12 +218,12 @@ nav {
 }
 
 .nav_link:hover {
-  color: var(--red1);
+  color: #ec5242;
   text-decoration: underline #000;
 }
 
 .active {
-  color: var(--red1);
+  color: #ec5242;
 }
 
 /* main */
@@ -249,12 +240,12 @@ nav {
 }
 
 .title {
-  color: var(--gray2);
+  color: #545454;
   font-family: 'Cocogoose', sans-serif;
   font-size: 3.2vw;
   font-weight: 700;
   padding: 7vw 0 2rem;
-  text-decoration: underline var(--red1);
+  text-decoration: underline #ec5242;
 }
 
 .quote {
@@ -266,7 +257,7 @@ nav {
 }
 
 .date {
-  color: var(--gray2);
+  color: #545454;
   font-family: 'Cocogoose', sans-serif;
   font-size: 1.9vw;
   font-weight: 700;
@@ -293,7 +284,7 @@ nav {
   color: #fff;
   font-size: 1.4rem;
   margin: 2rem;
-  text-decoration: underline var(--red1);
+  text-decoration: underline #ec5242;
 }
 
 .grid {
@@ -304,11 +295,11 @@ nav {
 }
 
 .part {
-  background: rgb(214, 213, 213);
   background: radial-gradient(circle, rgba(214, 213, 213, 0.1) 0%, rgba(156, 154, 154, 0.2) 100%);
+  background: rgb(214, 213, 213);
   border-radius: 0.5rem;
-  padding: 1rem;
   margin-bottom: 2rem;
+  padding: 1rem;
   width: 11rem;
 }
 
@@ -320,10 +311,10 @@ nav {
 }
 
 .part_title {
-  color: var(--red1);
+  color: #ec5242;
   font-weight: 700;
-  text-align: center;
   margin: 0.5rem;
+  text-align: center;
 }
 
 .part_text {
@@ -340,7 +331,7 @@ nav {
 }
 
 .more:hover {
-  color: var(--red1);
+  color: #ec5242;
   text-decoration: none;
 }
 
@@ -374,8 +365,8 @@ nav {
 }
 
 .about_text {
-  background: rgb(214, 213, 213);
   background: radial-gradient(circle, rgba(214, 213, 213, 0.7) 0%, rgba(156, 154, 154, 0.9) 100%);
+  background: rgb(214, 213, 213);
   border-radius: 0.5rem;
   color: #fff;
   padding: 1rem;
@@ -403,10 +394,10 @@ nav {
 }
 
 .tickets_title {
-  color: var(--gray2);
+  color: #545454;
   font-size: 1.4rem;
   margin: 2rem;
-  text-decoration: underline var(--red1);
+  text-decoration: underline #ec5242;
 }
 
 .table {
@@ -414,7 +405,7 @@ nav {
 }
 
 .first_row {
-  border-bottom: 0.4rem double var(--gray2);
+  border-bottom: 0.4rem double #545454;
 }
 
 th {
@@ -422,35 +413,35 @@ th {
 }
 
 .row {
-  border-bottom: 2px solid var(--gray2);
+  border-bottom: 2px solid #545454;
 }
 
 .date_tickets {
-  color: var(--gray2);
+  color: #545454;
   padding: 2rem;
 }
 
 .place_tickets {
-  color: var(--gray2);
+  color: #545454;
   padding: 2rem 3rem;
 }
 
 .city_tickets {
-  color: var(--gray2);
+  color: #545454;
   padding: 2rem 3rem;
 }
 
 .button_tickets {
-  color: var(--red1);
   background-color: #fff;
-  border: 2px solid var(--red1);
+  border: 2px solid #ec5242;
+  color: #ec5242;
   padding: 0.5rem 2rem;
   text-decoration: none;
 }
 
 .button_tickets:hover {
-  border: 2px solid var(--gray1);
-  color: var(--gray2);
+  border: 2px solid #d3d3d3;
+  color: #545454;
 }
 
 /* footer */
@@ -524,16 +515,16 @@ footer {
   }
 
   .odin {
-    order: 1;
     height: 80vw;
+    order: 1;
     width: 95%;
   }
 
   /* section 2 */
 
   .grid {
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 
   /* about */
@@ -547,8 +538,8 @@ footer {
   }
 
   .section3 {
-    height: 120vw;
     background-position: center;
+    height: 120vw;
   }
 
   /* tickets */
@@ -596,8 +587,8 @@ footer {
   }
 
   .odin {
-    order: 1;
     height: 80vw;
+    order: 1;
     width: 100%;
   }
 
@@ -612,8 +603,8 @@ footer {
   }
 
   .section3 {
-    height: 160vw;
     background-position: center;
+    height: 160vw;
   }
 
   /* tickets */
