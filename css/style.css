@@ -158,9 +158,12 @@ table {
 
 header {
   background-color: #272a31;
+  margin: 0 auto;
+  max-width: 1310px;
 }
 
 .header_links {
+  background-color: #272a31;
   display: flex;
   justify-content: space-between;
   margin: 0 0 0 auto;
@@ -342,8 +345,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vw;
-  max-height: 790px;
-  min-height: 480px;
+  max-height: 49.3rem;
+  min-height: 30rem;
 }
 
 .section2 {
@@ -351,8 +354,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vw;
-  max-height: 790px;
-  min-height: 480px;
+  max-height: 49.3rem;
+  min-height: 30rem;
 }
 
 .section3 {
@@ -360,8 +363,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vw;
-  max-height: 790px;
-  min-height: 480px;
+  max-height: 49.3rem;
+  min-height: 30rem;
 }
 
 .about_text {
@@ -451,11 +454,29 @@ footer {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  max-width: 49rem;
   padding: 1rem 0;
   width: 60%;
 }
 
 /* media queries */
+
+@media (min-width: 1310px) {
+  /* main */
+
+  .title {
+    font-size: 2.7rem;
+    padding-top: 5.5rem;
+  }
+
+  .date {
+    font-size: 1.7rem;
+  }
+
+  .odin {
+    max-height: 36.6rem;
+  }
+}
 
 @media (max-width: 900px) {
   /* main */
