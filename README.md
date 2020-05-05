@@ -1,6 +1,6 @@
-# Project Name
+# HTML & CSS Capstone Project
 
-    The HTML & CSS Capstone Project is based on an online website for a conference.
+    This project is based on an online website for a conference.
 
 ![screenshot](./screenshot.png)
 
