@@ -295,8 +295,8 @@ nav {
 }
 
 .part {
-  background: radial-gradient(circle, rgba(214, 213, 213, 0.1) 0%, rgba(156, 154, 154, 0.2) 100%);
   background: rgb(214, 213, 213);
+  background: radial-gradient(circle, rgba(214, 213, 213, 0.1) 0%, rgba(156, 154, 154, 0.2) 100%);
   border-radius: 0.5rem;
   margin-bottom: 2rem;
   padding: 1rem;
@@ -365,10 +365,10 @@ nav {
 }
 
 .about_text {
-  background: radial-gradient(circle, rgba(214, 213, 213, 0.7) 0%, rgba(156, 154, 154, 0.9) 100%);
   background: rgb(214, 213, 213);
+  background: radial-gradient(circle, rgba(214, 213, 213, 0.7) 0%, rgba(156, 154, 154, 0.9) 100%);
   border-radius: 0.5rem;
-  color: #fff;
+  color: #545454;
   padding: 1rem;
   width: 12rem;
 }
