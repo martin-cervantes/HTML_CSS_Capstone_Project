@@ -246,6 +246,71 @@ nav {
   text-decoration: none;
 }
 
+/* speakers */
+
+.speakers_section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.speakers {
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 3rem;
+  padding-bottom: 4rem;
+}
+
+.speaker {
+  display: flex;
+  padding-bottom: 1.5rem;
+}
+
+.speaker_img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.speaker_data {
+  padding-left: 1.5rem;
+}
+
+.speaker_name {
+  font-size: 1.1rem;
+  margin: 0;
+  padding-bottom: 0.7rem;
+}
+
+.speaker_title {
+  color: #ec5242;
+  font-size: 0.8rem;
+  margin: 0;
+  padding-bottom: 0.7rem;
+  font-style: italic;
+}
+
+.speaker_text {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  margin: 0;
+}
+
+/* partners */
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  width: 80%;
+}
+
+.partner {
+  width: 7rem;
+}
+
 /* about */
 
 .section1 {
