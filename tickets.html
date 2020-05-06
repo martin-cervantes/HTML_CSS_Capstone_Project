@@ -14,132 +14,137 @@
     </head>
     <body>
         <header>
-            <div class="container">
-                <div class="header_links">
-                    <a class="header_link" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="header_link" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="header_link" href="#">Espa&ntilde;ol</a>
-                    <a class="header_link" href="#">My Page</a>
-                    <a class="header_link" href="#">Logout</a>
-                </div>
+            <div class="header_links">
+                <a class="header_link white_color" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="header_link white_color" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="header_link white_color" href="#">Espa&ntilde;ol</a>
+                <a class="header_link white_color" href="#">My Page</a>
+                <a class="header_link white_color" href="#">Logout</a>
             </div>
+
+            <nav>
+                <div class="nav_bar">
+                    <a href="#"><img class="full_logo" src="img/full_logo.png" alt="Logo" /></a>
+
+                    <div class="nav_links">
+                        <a class="nav_link" href="index.html">Main</a>
+                        <a class="nav_link" href="about.html">About</a>
+                        <a class="nav_link active" href="tickets.html">Tickets</a>
+                    </div>
+
+                    <a class="nav_link menu" href="#"><i class="fas fa-bars"></i></a>
+                </div>
+            </nav>
         </header>
 
-        <nav>
-            <div class="container nav_bar">
-                <a href="#"><img class="full_logo" src="img/full_logo.png" alt="Logo" /></a>
+        <main class="bg_tickets">
+            <h1 class="title gray_color">Tickets</h1>
 
-                <div class="nav_links">
-                    <a class="nav_link" href="index.html">Main</a>
-                    <a class="nav_link" href="about.html">About</a>
-                    <a class="nav_link active" href="tickets.html">Tickets</a>
-                </div>
+            <table>
+                <thead>
+                    <tr class="first_row">
+                        <th class="part_title">Date</th>
+                        <th class="part_title">Place</th>
+                        <th class="part_title none">City</th>
+                        <th></th>
+                    </tr>
+                </thead>
 
-                <a class="nav_link menu" href="#"><i class="fas fa-bars"></i></a>
-            </div>
-        </nav>
+                <tbody>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jun 19</td>
+                        <td class="place_tickets gray_color">Teatro Metrop&oacute;litan</td>
+                        <td class="city_tickets gray_color none">Mexico City</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
 
-        <main>
-            <div class="container bg_tickets">
-                <h1 class="title">Tickets</h1>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jun 20</td>
+                        <td class="place_tickets gray_color">Teatro Metrop&oacute;litan</td>
+                        <td class="city_tickets gray_color none">Mexico City</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
 
-                <table>
-                    <thead>
-                        <tr class="first_row">
-                            <th class="part_title">Date</th>
-                            <th class="part_title">Place</th>
-                            <th class="part_title none">City</th>
-                            <th></th>
-                        </tr>
-                    </thead>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jun 21</td>
+                        <td class="place_tickets gray_color">Teatro Metrop&oacute;litan</td>
+                        <td class="city_tickets gray_color none">Mexico City</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
 
-                    <tbody>
-                        <tr class="row">
-                            <td class="date_tickets">Jun 19</td>
-                            <td class="place_tickets">Teatro Metrop&oacute;litan</td>
-                            <td class="city_tickets none">Mexico City</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
+            <h2 class="title">Upcoming Events</h2>
 
-                        <tr class="row">
-                            <td class="date_tickets">Jun 20</td>
-                            <td class="place_tickets">Teatro Metrop&oacute;litan</td>
-                            <td class="city_tickets none">Mexico City</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
+            <table class="table">
+                <thead>
+                    <tr class="first_row">
+                        <th class="part_title">Date</th>
+                        <th class="part_title none">Place</th>
+                        <th class="part_title">City</th>
+                        <th></th>
+                    </tr>
+                </thead>
 
-                        <tr class="row">
-                            <td class="date_tickets">Jun 21</td>
-                            <td class="place_tickets">Teatro Metrop&oacute;litan</td>
-                            <td class="city_tickets none">Mexico City</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <tbody>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jun 26</td>
+                        <td class="place_tickets gray_color none">Teatro Diana</td>
+                        <td class="city_tickets gray_color">Guadalajara</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
 
-                <h2 class="title">Upcoming Events</h2>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jun 27</td>
+                        <td class="place_tickets gray_color none">Teatro Diana</td>
+                        <td class="city_tickets gray_color">Guadalajara</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
 
-                <table class="table">
-                    <thead>
-                        <tr class="first_row">
-                            <th class="part_title">Date</th>
-                            <th class="part_title none">Place</th>
-                            <th class="part_title">City</th>
-                            <th></th>
-                        </tr>
-                    </thead>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jun 28</td>
+                        <td class="place_tickets gray_color none">Teatro Diana</td>
+                        <td class="city_tickets gray_color">Guadalajara</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
 
-                    <tbody>
-                        <tr class="row">
-                            <td class="date_tickets">Jun 26</td>
-                            <td class="place_tickets none">Teatro Diana</td>
-                            <td class="city_tickets">Guadalajara</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jul 4</td>
+                        <td class="place_tickets gray_color none">Teatro Morelos</td>
+                        <td class="city_tickets gray_color">Morelos</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
 
-                        <tr class="row">
-                            <td class="date_tickets">Jun 27</td>
-                            <td class="place_tickets none">Teatro Diana</td>
-                            <td class="city_tickets">Guadalajara</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jul 5</td>
+                        <td class="place_tickets gray_color none">Teatro Morelos</td>
+                        <td class="city_tickets gray_color">Morelos</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
 
-                        <tr class="row">
-                            <td class="date_tickets">Jun 28</td>
-                            <td class="place_tickets none">Teatro Diana</td>
-                            <td class="city_tickets">Guadalajara</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
-
-                        <tr class="row">
-                            <td class="date_tickets">Jul 4</td>
-                            <td class="place_tickets none">Teatro Morelos</td>
-                            <td class="city_tickets">Morelos</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
-
-                        <tr class="row">
-                            <td class="date_tickets">Jul 5</td>
-                            <td class="place_tickets none">Teatro Morelos</td>
-                            <td class="city_tickets">Morelos</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
-
-                        <tr class="row">
-                            <td class="date_tickets">Jul 6</td>
-                            <td class="place_tickets none">Teatro Morelos</td>
-                            <td class="city_tickets">Morelos</td>
-                            <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                    <tr class="row">
+                        <td class="date_tickets gray_color">Jul 6</td>
+                        <td class="place_tickets gray_color none">Teatro Morelos</td>
+                        <td class="city_tickets gray_color">Morelos</td>
+                        <td><a class="button_tickets" href="#">Buy <i class="fas fa-chevron-right"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
         </main>
 
         <footer>
               <a href="#"><img class="full_logo" src="img/full_logo.png" alt="Logo" /></a>
 
-              <p class="copyright"><i class="far fa-copyright"></i> 2020 Creative Commons.</p>
+              <div class="group">
+                <p class="copyright"><i class="far fa-copyright"></i> 2020 Creative Commons.</p>
+
+                <div class="footer_links">
+                     <a class="footer_link gray_color" href="#">About us</a>
+                     <a class="footer_link gray_color" href="#">Advertise</a>
+                     <a class="footer_link gray_color" href="#">Jobs</a>
+                     <a class="footer_link gray_color" href="#">Contact us</a>
+                 </div>
+              </div>
         </footer>
 
         <script src="js/font_awesome.min.js"></script>

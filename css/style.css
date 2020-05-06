@@ -3,86 +3,22 @@
    License: none (public domain)
 */
 a,
-abbr,
-acronym,
-address,
-applet,
 article,
-aside,
-audio,
-b,
-big,
-blockquote,
 body,
-canvas,
-caption,
-center,
-cite,
-code,
-dd,
-del,
-details,
-dfn,
-div,
-dl,
-dt,
-em,
-embed,
-fieldset,
-figcaption,
-figure,
 footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 header,
-hgroup,
 html,
-i,
-iframe,
 img,
-ins,
-kbd,
-label,
-legend,
 li,
-mark,
-menu,
 nav,
-object,
-ol,
-output,
 p,
-pre,
-q,
-ruby,
-s,
-samp,
 section,
-small,
-span,
-strike,
-strong,
-sub,
-summary,
-sup,
 table,
 tbody,
 td,
-tfoot,
 th,
 thead,
-time,
-tr,
-tt,
-u,
-ul,
-var,
-video {
+tr {
   border: 0;
   font: inherit;
   font-size: 100%;
@@ -94,14 +30,8 @@ video {
 /* HTML5 display-role reset for older browsers */
 
 article,
-aside,
-details,
-figcaption,
-figure,
 footer,
 header,
-hgroup,
-menu,
 nav,
 section {
   display: block;
@@ -112,24 +42,8 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote::after,
-blockquote::before,
-q::after,
-q::before {
-  content: '';
-  content: none;
+  margin: 0 auto;
+  max-width: 1310px;
 }
 
 table {
@@ -149,17 +63,18 @@ table {
   src: url(../font/Lato.ttf) format('truetype');
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1310px;
+.gray_color {
+  color: #545454;
+}
+
+.white_color {
+  color: #fff;
 }
 
 /* header */
 
 header {
   background-color: #272a31;
-  margin: 0 auto;
-  max-width: 1310px;
 }
 
 .header_links {
@@ -172,8 +87,6 @@ header {
 }
 
 .header_link {
-  color: #fff;
-  font-family: 'Lato', sans-serif;
   font-size: 0.8rem;
   text-decoration: none;
 }
@@ -182,7 +95,7 @@ header {
   color: #ec5242;
 }
 
-/* header */
+/* navbar */
 
 nav {
   background-color: #fff;
@@ -210,7 +123,6 @@ nav {
 
 .nav_link {
   color: #272a31;
-  font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
   text-decoration: none;
 }
@@ -243,7 +155,6 @@ nav {
 }
 
 .title {
-  color: #545454;
   font-family: 'Cocogoose', sans-serif;
   font-size: 3.2vw;
   font-weight: 700;
@@ -260,7 +171,6 @@ nav {
 }
 
 .date {
-  color: #545454;
   font-family: 'Cocogoose', sans-serif;
   font-size: 1.9vw;
   font-weight: 700;
@@ -284,7 +194,6 @@ nav {
 }
 
 .section_title {
-  color: #fff;
   font-size: 1.4rem;
   margin: 2rem;
   text-decoration: underline #ec5242;
@@ -315,20 +224,19 @@ nav {
 
 .part_title {
   color: #ec5242;
+  font-size: 1rem;
   font-weight: 700;
   margin: 0.5rem;
   text-align: center;
 }
 
 .part_text {
-  color: #fff;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .more {
-  color: #fff;
   font-size: 0.8rem;
   margin-bottom: 3rem;
 }
@@ -371,7 +279,6 @@ nav {
   background: rgb(214, 213, 213);
   background: radial-gradient(circle, rgba(214, 213, 213, 0.7) 0%, rgba(156, 154, 154, 0.9) 100%);
   border-radius: 0.5rem;
-  color: #545454;
   padding: 1rem;
   width: 12rem;
 }
@@ -397,7 +304,6 @@ nav {
 }
 
 .tickets_title {
-  color: #545454;
   font-size: 1.4rem;
   margin: 2rem;
   text-decoration: underline #ec5242;
@@ -420,17 +326,14 @@ th {
 }
 
 .date_tickets {
-  color: #545454;
   padding: 2rem;
 }
 
 .place_tickets {
-  color: #545454;
   padding: 2rem 3rem;
 }
 
 .city_tickets {
-  color: #545454;
   padding: 2rem 3rem;
 }
 
@@ -450,13 +353,35 @@ th {
 /* footer */
 
 footer {
-  align-items: center;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 49rem;
   padding: 1rem 0;
-  width: 60%;
+  width: 80%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  justify-content: space-around;
+}
+
+.copyright {
+  align-self: center;
+  display: flex;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-around;
+  width: 20rem;
+}
+
+.footer_link:hover {
+  color: #ec5242;
+  text-decoration: none;
 }
 
 /* media queries */
@@ -548,6 +473,13 @@ footer {
     flex-direction: column;
   }
 
+  /* speakers */
+
+  .speakers {
+    width: 70%;
+    grid-template-columns: auto;
+  }
+
   /* about */
 
   .section1 {
@@ -589,6 +521,24 @@ footer {
 
   footer {
     width: 85%;
+  }
+}
+
+@media (max-width: 630px) {
+  /* footer */
+
+  footer {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .group {
+    width: 90%;
+  }
+
+  .footer_links {
+    width: 100%;
   }
 }
 
@@ -636,15 +586,5 @@ footer {
 
   .none {
     display: none;
-  }
-
-  /* footer */
-  footer {
-    flex-direction: column;
-    width: 95%;
-  }
-
-  .copyright {
-    padding-top: 1rem;
   }
 }
