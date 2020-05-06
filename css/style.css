@@ -366,6 +366,12 @@ nav {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+.step {
+  color: #ec5242;
+  text-decoration: none;
 }
 
 .tickets_title {
