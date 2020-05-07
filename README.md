@@ -12,7 +12,7 @@
 
 ## :mag: Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/mcervantes71/HTML_CSS_Capstone_Project/7a39f159ce7efa521609b674bb86a7f489d413ff/index.html)
+[Live Demo Link](https://mcervantes71.github.io/HTML_CSS_Capstone_Project/index.html)
 
 ## :busts_in_silhouette: Authors
 
